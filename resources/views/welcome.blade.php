@@ -17,14 +17,14 @@
                         <div class="card-header">
                           <h3>  <div class="card-title">Contact Form</h3>
                                 <div class="card-body">
-                            <form id="contact-form" action="{{ route('contact-form-store')}}">
+                            <form id="contact-form" {{--action="{{ route('contact-form-store')}}"--}}>
                                         <div class="form-row">
                                           <div class="form-group col-md-6">
                                             <label for="inputEmail4">Email</label>
                                             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                                           </div>
                                           <div class="form-group col-md-6">
-                                            <label for="inputname4">Password</label>
+                                            <label for="inputname4">Name</label>
                                             <input type="text" class="form-control" id="name4" placeholder="Enter Your Name">
                                           </div>
                                         </div>
@@ -118,12 +118,12 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <script>
-            $(document).ready(function(){
-                $("#contact-form").submit(function(e){
-                    e.preventDefault();
-                    let url=$(this).attr('action');
-                })
-            })
+            // $(document).ready(function(){
+            //     $("#contact-form").submit(function(e){
+            //         e.preventDefault();
+            //         let url=$(this).attr('action');
+            //     })
+            // })
             </script>
     </body>
        
