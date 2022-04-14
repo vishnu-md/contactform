@@ -20,12 +20,13 @@
                             <form id="contact-form" {{--action="{{ route('contact-form-store')}}"--}}>
                                         <div class="form-row">
                                           <div class="form-group col-md-6">
-                                            <label for="inputEmail4">Email</label>
-                                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                                          </div>
-                                          <div class="form-group col-md-6">
                                             <label for="inputname4">Name</label>
                                             <input type="text" class="form-control" id="name4" placeholder="Enter Your Name">
+                                            
+                                          </div>
+                                          <div class="form-group col-md-6">
+                                            <label for="inputEmail4">Email</label>
+                                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                                           </div>
                                         </div>
                                         <div class="form-group">
